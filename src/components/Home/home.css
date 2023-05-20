@@ -1,0 +1,48 @@
+.calculator-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.calculator{
+    display: flex;
+    
+}
+
+button{
+    cursor: pointer;
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.num-buttons{
+    width: 50px;
+    height: 40px;
+}
+.calculator-buttons{
+    display: flex;
+}
+
+.extra-width-buttons{
+    width: 105px;
+    height: 40px;
+}
+
+input{
+    width: 205px;
+    height: 22px;
+}
+
+.add-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-height-buttons{
+    height: 85px;
+    width: 50px;
+}
